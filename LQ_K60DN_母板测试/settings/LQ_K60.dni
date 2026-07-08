@@ -1,0 +1,133 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[JLinkDriver]
+CStepIntDis=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+LeaveTargetRunning=_ 0
+[DebugChecksum]
+Checksum=1129842338
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[Trace1]
+Enabled=0
+ShowSource=1
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerLog]
+Title_0=I0
+Symbol_0=0 4 0
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[EventLog]
+Title_0=Ch3
+Symbol_0=0 4 1
+Title_1=Ch2
+Symbol_1=0 4 1
+Title_2=Ch1
+Symbol_2=0 4 1
+Title_3=Ch0
+Symbol_3=0 4 1
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "C:\Users\Administrator\Desktop\测试资料 - 2018-5-4\3.神眼\龙邱K60_OLED显示_OV7620\2018-8-24\src\Source\PLL.c" ""
+A1=_ "C:\Users\acer PC\Desktop\LQ_K60_VG主板例程\2015年10月22日\src\Project_Setting\Startup\start.c" ""
+A2=_ "C:\Users\acer PC\Desktop\LQ_K60_VG主板例程\2015年10月22日\src\Source\GPIO.c" ""
+A3=_ "C:\Users\acer PC\Desktop\LQ_K60_VG主板例程\2015年10月22日\src\Source\UART.c" ""
+A4=_ "C:\Users\acer PC\Desktop\LQ_K60_VG主板例程\2015年10月22日\src\User\main.c" ""
+A5=_ "C:\Users\acer PC\Documents\Tencent Files\1622542013\FileRecv\LQ_K60库\src\Project_Setting\Startup\start.c" ""
+A6=_ "D:\桌面文件\测试专用库\LQ_K60DN_MT9V034\src\Source\GPIO.c" ""
+A7=_ "F:\龙邱产品内部资料整理\模块类\液晶类\0.96寸OLED资料 更新时间：2015年11月27日\3.LQ_K60_OLED代码\2015年11月24日\src\Project_Setting\Startup\start.c" ""
+A8=_ "G:\测试程序\龙邱K60开发库\LQ_K60库10.16版\src\Project_Setting\Startup\crt0.s" ""
+A9=_ "G:\测试程序\龙邱K60开发库\LQ_K60库10.16版\src\Project_Setting\Startup\start.c" ""
+Count=10
+SuppressDialog=1

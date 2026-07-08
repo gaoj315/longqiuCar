@@ -1,0 +1,15 @@
+"D:\softSetup\iar8321\arm\bin\armproc.dll" 
+
+"D:\softSetup\iar8321\arm\bin\armjlink2.dll" 
+
+"E:\0999-devlop\longqiu-k60\24_LQ_K60DN_母板测试\LQ_K60DN_母板测试\Debug\Exe\c.out" 
+
+--plugin="D:\softSetup\iar8321\arm\bin\armbat.dll" 
+
+--device_macro="D:\softSetup\iar8321\arm\config\debugger\NXP\Kxx.dmac" 
+
+--device_macro="D:\softSetup\iar8321\arm\config\debugger\NXP\Kxx_Trace.dmac" 
+
+
+
+
